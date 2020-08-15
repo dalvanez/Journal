@@ -83,5 +83,8 @@ switch(room) {
 		ds_queue_enqueue(argument0,"...");
 		ds_queue_enqueue(argument0,"You know, I used to be called");
 		ds_queue_enqueue(argument0,"\"A Drama Maker\"");	//50
+		ds_queue_enqueue(argument0,"Even though I wasn't.");
+		ds_queue_enqueue(argument0,"I just had a talent for...");
+		ds_queue_enqueue(argument0,"good stories.");
 		break;
 }
