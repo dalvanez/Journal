@@ -19,7 +19,7 @@ switch(room) {
 
 //Move Player Up;
 play_sound(choose(snd_step1,snd_step2,snd_step3,snd_step4,snd_step5,snd_step6));
-if (move_y==0) y-=_dist;
+if (move_y==-1.1) y-=_dist;
 else y+=move_y;
 x+=move_x;
 image_yscale = 1;

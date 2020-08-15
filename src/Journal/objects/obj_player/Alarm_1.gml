@@ -10,11 +10,7 @@ if (!freeze_inputs && ai_start) {
 	}
 
 	if ((ai_index>0 && ai_phrase==progress )|| string_length(progress)<1) {
-		freeze_inputs = true;
-		play_sound(snd_shut_off);
-		if (audio_is_playing(snd_hum)) audio_stop_sound(snd_hum);
-		alarm[11]= 120;
-		lose = true;
+		lose_game();
 	}
 	
 	ai_index+=1;

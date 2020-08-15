@@ -4,7 +4,8 @@
     "mvc": "1.0",
     "IsDnDProject": false,
     "configs": [
-        
+        "default",
+        "default;dev"
     ],
     "option_ecma": false,
     "parentProject": {
@@ -239,6 +240,14 @@
             }
         },
         {
+            "Key": "58990324-59fc-4fb0-acbd-239bdbc3fad4",
+            "Value": {
+                "id": "ae03437f-dbf6-48fb-904c-305245be79db",
+                "resourcePath": "scripts\\complete_phrase\\complete_phrase.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "58d9fd7b-b84c-48e9-837d-bb06a085fc18",
             "Value": {
                 "id": "31bdd810-70c9-46e4-b6a9-1acc2fb66130",
@@ -252,6 +261,14 @@
                 "id": "d1aa263d-0a25-42fc-a0ff-f087a15f5683",
                 "resourcePath": "sounds\\snd_key5\\snd_key5.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "5de138cc-85f5-451a-8056-e47478c633ce",
+            "Value": {
+                "id": "4497ffaf-23ad-4ccb-95fa-836949bde270",
+                "resourcePath": "scripts\\lose_game\\lose_game.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -327,6 +344,14 @@
             }
         },
         {
+            "Key": "84b0c583-d9bd-4d30-ba39-0002e9f876ce",
+            "Value": {
+                "id": "b6ab0e01-c0cd-4568-a939-276b9dc0d856",
+                "resourcePath": "objects\\obj_sound_trigger\\obj_sound_trigger.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "8724bfa6-afe2-4d75-98c6-3ff742ac76f8",
             "Value": {
                 "id": "595eb86b-8904-42a1-8c1b-9f218f02b087",
@@ -356,6 +381,14 @@
                 "id": "f981036a-fedf-44a8-ac58-813e4ac010e8",
                 "resourcePath": "sounds\\snd_key3\\snd_key3.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "9c41836f-c862-490e-916b-b5c43b3b0a81",
+            "Value": {
+                "id": "343f6a9f-e933-49ce-97cb-90ee6ad62ca4",
+                "resourcePath": "objects\\obj_movement_trigger\\obj_movement_trigger.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -439,6 +472,14 @@
             }
         },
         {
+            "Key": "c3cb161a-20b3-40e0-a92e-7bcf7aa407b0",
+            "Value": {
+                "id": "991eed70-6f51-4c89-b581-f380ea111d87",
+                "resourcePath": "sounds\\snd_door\\snd_door.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "c7376566-8565-4ab7-9e6d-8b0571165f50",
             "Value": {
                 "id": "be640164-0a68-41e7-bd9e-6a9d55e4321d",
@@ -483,6 +524,14 @@
             "Value": {
                 "id": "0433bd03-38a2-4651-a4df-dadd6f18433e",
                 "resourcePath": "views\\d41b024a-2dbd-4b20-8ee3-02bfaa110706.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "d5117620-1b9a-4525-a5f0-5e050c5fc5b5",
+            "Value": {
+                "id": "7dffe0a8-3907-4391-8050-7d7758468cc6",
+                "resourcePath": "views\\d5117620-1b9a-4525-a5f0-5e050c5fc5b5.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -589,11 +638,21 @@
                 "resourcePath": "sprites\\spr_kenney_tiles\\spr_kenney_tiles.yy",
                 "resourceType": "GMSprite"
             }
+        },
+        {
+            "Key": "ffa36f4d-d7c4-42db-baa3-59eda36fc519",
+            "Value": {
+                "id": "ff8cb913-4a2f-45a0-8ec5-6f2e8f1ba43f",
+                "resourcePath": "objects\\obj_trigger\\obj_trigger.yy",
+                "resourceType": "GMObject"
+            }
         }
     ],
     "script_order": [
         "c7a5f897-5300-42ee-9f2a-e16910050852",
         "f5ae4444-5a88-4cc1-a5a3-6bc28eaf156a",
+        "58990324-59fc-4fb0-acbd-239bdbc3fad4",
+        "5de138cc-85f5-451a-8056-e47478c633ce",
         "71784ac2-a775-4a2b-b362-427331e93040",
         "cbe5bc99-c9c9-4528-bd97-3f1094e0a2dc"
     ],

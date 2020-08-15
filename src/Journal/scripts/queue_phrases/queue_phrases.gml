@@ -26,6 +26,12 @@ switch(room) {
 		ds_queue_enqueue(argument0,"I can't k33p up!!");
 		ds_queue_enqueue(argument0,"1 can't k33p up!!");
 		ds_queue_enqueue(argument0,"i cant");
+		ds_queue_enqueue(argument0,"i cant  skip");
+		ds_queue_enqueue(argument0,"i cant  stop");
+		ds_queue_enqueue(argument0,"I cant  st0p");
+		ds_queue_enqueue(argument0,"I cant-st0p");
+		ds_queue_enqueue(argument0,"I can no 1ong3r stop typ1ng anymore so that this text goes off screen too bad haha");
+		ds_queue_enqueue(argument0,"I can no 1ong3r stop typdadaw1ng anymore so tdhat this text goes off screen too bad haha");
 		break;
 	case rm_story:
 		ds_queue_enqueue(argument0,"My name is David Abbernel");
@@ -55,8 +61,27 @@ switch(room) {
 		ds_queue_enqueue(argument0,"I assume");
 		ds_queue_enqueue(argument0,"the bodies are still there,");
 		ds_queue_enqueue(argument0,"covered in blood.");
-		ds_queue_enqueue(argument0,"");
-		ds_queue_enqueue(argument0,"covered in blood.");
-		ds_queue_enqueue(argument0,"covered in blood.");			//30
+		ds_queue_enqueue(argument0,"I guess I'll have to see");
+		ds_queue_enqueue(argument0,"Room 142");
+		ds_queue_enqueue(argument0,"That should be the one");			//30
+		ds_queue_enqueue(argument0,"The door has been left open");
+		ds_queue_enqueue(argument0,"No real surprise.");
+		ds_queue_enqueue(argument0,"I guess I should take a look around.");
+		ds_queue_enqueue(argument0,"There's two of the bodies...");
+		ds_queue_enqueue(argument0,"I'm going to have to...");
+		ds_queue_enqueue(argument0,"step over that one, huh?");
+		ds_queue_enqueue(argument0,"Seems like the murderer");
+		ds_queue_enqueue(argument0,"did not mess around.");
+		ds_queue_enqueue(argument0,"The bedroom is empty.");
+		ds_queue_enqueue(argument0,"That leaves just the bathroom.");
+		ds_queue_enqueue(argument0,"What a mess.");
+		ds_queue_enqueue(argument0,"What's this?");	
+		ds_queue_enqueue(argument0,"One of the bodies is missing!");	//40
+		ds_queue_enqueue(argument0,"What's going on with that?");
+		ds_queue_enqueue(argument0,"Did someone just close the door?");
+		ds_queue_enqueue(argument0,"I should check on that.");
+		ds_queue_enqueue(argument0,"...");
+		ds_queue_enqueue(argument0,"You know, I used to be called");
+		ds_queue_enqueue(argument0,"\"A Drama Maker\"");	//50
 		break;
 }

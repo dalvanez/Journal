@@ -19,11 +19,6 @@ if (!freeze_inputs) {
 	keyboard_lastchar = "";
 
 	if (string_upper(phrase)==string_upper(progress)) {		//Phrase completion
-		freeze_inputs = true;
-		enable_count+=1;
-		alarm[4] = 15;
-		alarm[0] = -1;
-		image_yscale = 1.6;
-		image_xscale = 0.8;
+		complete_phrase();
 	}
 }

@@ -16,6 +16,6 @@ switch(typeof(pop)) {
 		break;
 	default:
 		cout("[obj_player]: Couldn't pop a string! What's up???");
-		lose = true;
+		lose_game();
 		break;
 }
