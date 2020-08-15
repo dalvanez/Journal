@@ -8,3 +8,6 @@
 //Load Audio
 audio_group_load(keys);
 audio_group_load(fx);
+audio_group_load(ambient);
+
+alarm[1] = 60;

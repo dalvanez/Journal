@@ -30,6 +30,16 @@
                     "groupName": "fx",
                     "targets": 461609314234257646
                 }
+            },
+            {
+                "Key": 3,
+                "Value": {
+                    "id": "41be08f0-c762-4b7a-a65b-7b30679132b6",
+                    "modelName": "GMAudioGroup",
+                    "mvc": "1.0",
+                    "groupName": "ambient",
+                    "targets": 461609314234257646
+                }
             }
         ],
         "Checksum": "濑Ⱥ朦씁ᬄ縈",

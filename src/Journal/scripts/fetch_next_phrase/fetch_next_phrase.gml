@@ -1,11 +1,14 @@
 //fetch_next_phrase
 //Fetches the next phrase from the queue. Also resets variables.
 keyboard_string = "";
+keyboard_lastchar = "";
 ai_phrase = "";
 ai_index = 0;
+player_index = 1;
 progress = "";
-difficulty+=1;
-wpm = 60/difficulty;
+difficulty+=difficulty_increase;
+wpm = 60*60/difficulty;
+if !(enable_count>=ai_autostart_on) ai_start = false;
 var pop = ds_queue_dequeue(story);
 switch(typeof(pop)) {
 	case "string":
@@ -13,5 +16,6 @@ switch(typeof(pop)) {
 		break;
 	default:
 		cout("[obj_player]: Couldn't pop a string! What's up???");
+		lose = true;
 		break;
 }

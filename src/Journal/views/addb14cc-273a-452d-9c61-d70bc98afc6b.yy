@@ -4,7 +4,9 @@
     "mvc": "1.1",
     "name": "addb14cc-273a-452d-9c61-d70bc98afc6b",
     "children": [
-        
+        "f973eab1-1d6f-4ac7-93e1-3874ed49fab8",
+        "c769d500-5e4e-4057-a19c-a99084eac00a",
+        "497c4411-0f1e-4fc8-8ba9-89fffe9defde"
     ],
     "filterType": "GMSound",
     "folderName": "Ambience",
