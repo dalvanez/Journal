@@ -2,7 +2,6 @@
 if (!freeze_inputs) {
 	var _char = string_upper(keyboard_lastchar);
 	var _phrase_char = string_copy(phrase,player_index,1);
-	cout(_phrase_char);
 	if (_char==_phrase_char) {	//Check to see if the current key is correct
 		progress = progress+_char;
 		player_index+=1;

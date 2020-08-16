@@ -10,4 +10,7 @@ audio_group_load(keys);
 audio_group_load(fx);
 audio_group_load(ambient);
 
+//Difficulty Scaling
+global.difficulty_modifier = 0;	//Intro should modify this, so the actual game is challenging but still completable
+
 alarm[1] = 60;

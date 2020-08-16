@@ -11,12 +11,12 @@ switch(room) {
 		ds_queue_enqueue(argument0,"What does it want?");
 		ds_queue_enqueue(argument0,"I should run");
 		ds_queue_enqueue(argument0,"I should run");
-		ds_queue_enqueue(argument0,"I should run");
-		ds_queue_enqueue(argument0,"I should run");
-		ds_queue_enqueue(argument0,"I should run");
-		ds_queue_enqueue(argument0,"I should run");
-		ds_queue_enqueue(argument0,"I should run");
-		ds_queue_enqueue(argument0,"I should run");
+		ds_queue_enqueue(argument0,"Is it still giving chase?");
+		ds_queue_enqueue(argument0,"Should I run?");
+		ds_queue_enqueue(argument0,"... I should run");
+		ds_queue_enqueue(argument0,"I should run!");
+		ds_queue_enqueue(argument0,"I should run!!");
+		ds_queue_enqueue(argument0,"I should run!!");
 		ds_queue_enqueue(argument0,"I should run!!!!!");
 		ds_queue_enqueue(argument0,"God please help me!!!!");
 		ds_queue_enqueue(argument0,"I cant keep up");
@@ -26,12 +26,13 @@ switch(room) {
 		ds_queue_enqueue(argument0,"I can't k33p up!!");
 		ds_queue_enqueue(argument0,"1 can't k33p up!!");
 		ds_queue_enqueue(argument0,"i cant");
-		ds_queue_enqueue(argument0,"i cant  skip");
+		ds_queue_enqueue(argument0,"i cant  stop running");
 		ds_queue_enqueue(argument0,"i cant  stop");
 		ds_queue_enqueue(argument0,"I cant  st0p");
 		ds_queue_enqueue(argument0,"I cant-st0p");
 		ds_queue_enqueue(argument0,"I can no 1ong3r stop typ1ng anymore so that this text goes off screen too bad haha");
 		ds_queue_enqueue(argument0,"I can no 1ong3r stop typdadaw1ng anymore so tdhat this text goes off screen too bad haha");
+		ds_queue_enqueue(argument0,"if you've gotten this far you've made a pretty huge mistake im sorry about this but i'ma have to stop you now ok bye");
 		break;
 	case rm_story:
 		ds_queue_enqueue(argument0,"My name is David Abbernel");
@@ -86,5 +87,32 @@ switch(room) {
 		ds_queue_enqueue(argument0,"Even though I wasn't.");
 		ds_queue_enqueue(argument0,"I just had a talent for...");
 		ds_queue_enqueue(argument0,"good stories.");
+		ds_queue_enqueue(argument0,"And people like good stories, right?");
+		ds_queue_enqueue(argument0,"I mean, why not?");
+		ds_queue_enqueue(argument0,"...");
+		ds_queue_enqueue(argument0,"...");
+		ds_queue_enqueue(argument0,"...");
+		break;
+	case rm_story2:
+		ds_queue_enqueue(argument0,"The door is closed...");
+		ds_queue_enqueue(argument0,"Who's there?");
+		ds_queue_enqueue(argument0,"Where is the other body?");
+		ds_queue_enqueue(argument0,"Why did he do this?");
+		ds_queue_enqueue(argument0,"Weren't they all happy?");
+		ds_queue_enqueue(argument0,"Where is he?");
+		ds_queue_enqueue(argument0,"Is anyone out here?!");
+		ds_queue_enqueue(argument0,"...");
+		ds_queue_enqueue(argument0,"Is that the police?");
+		ds_queue_enqueue(argument0,"Oh god what did I do?!");
+		ds_queue_enqueue(argument0,"This looks so bad!");
+		ds_queue_enqueue(argument0,"I must do something!");
+		ds_queue_enqueue(argument0,"Hide the body!");
+		ds_queue_enqueue(argument0,"Hide the body!!");
+		ds_queue_enqueue(argument0,"Hide the body!!!");
+		ds_queue_enqueue(argument0,"Why did I do this?");
+		ds_queue_enqueue(argument0,"I just wanted to be happy.");
+		ds_queue_enqueue(argument0,"I just wanted to have the...");
+		ds_queue_enqueue(argument0,"the next big story.");
+		ds_queue_enqueue(argument0,"And the raise I deserved.");
 		break;
 }

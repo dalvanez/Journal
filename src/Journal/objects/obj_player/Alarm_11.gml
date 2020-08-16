@@ -3,7 +3,7 @@ switch(room) {
 	case rm_intro:
 		room_goto(rm_story);
 		break;
-	case rm_story:
+	default:
 		switch(lose_counter) {
 			case 0:
 				play_sound(snd_step1);

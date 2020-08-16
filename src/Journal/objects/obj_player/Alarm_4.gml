@@ -13,6 +13,9 @@ switch(room) {
 		if (enable_count>=45) difficulty_increase = 10;
 		if (enable_count>=60) difficulty_increase = 20;
 		break;
+	case rm_story2:
+		if (enable_count>=1) difficulty_increase = 5;
+		break;
 	default:
 		break;
 }

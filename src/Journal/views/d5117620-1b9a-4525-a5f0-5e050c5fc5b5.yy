@@ -6,7 +6,8 @@
     "children": [
         "ffa36f4d-d7c4-42db-baa3-59eda36fc519",
         "84b0c583-d9bd-4d30-ba39-0002e9f876ce",
-        "9c41836f-c862-490e-916b-b5c43b3b0a81"
+        "9c41836f-c862-490e-916b-b5c43b3b0a81",
+        "86f21346-63fc-4c34-b71d-116c9b8b9423"
     ],
     "filterType": "GMObject",
     "folderName": "Trigger",

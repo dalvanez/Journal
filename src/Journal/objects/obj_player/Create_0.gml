@@ -17,6 +17,7 @@ ai_start = false;			//Whether the AI has started or not.
 lose = false;				//Whether or not the player has lost to the AI
 lose_counter = 0;			//Which phase of the losing animation we're in
 enable_count = 0;			//How many phrases have been completed, used to track when to start being evil
+difficulty_increase+=ceil(global.difficulty_modifier);	//Difficulty scaling to hopefully lessen/increase difficulty
 
 //Graphics
 scale = 2;					//Text Scale
@@ -27,6 +28,10 @@ blink_speed = 30;			//Speed of cursor blinking
 surface = noone;			//Dark Circle Effect
 dark_radius = 3;			//Dark Radius
 text_y = (display_get_gui_height()/2)-(64*scale)-128;	//Text Y position
+
+//Hints
+type_hint = false;			//Whether or not to display the type hint
+hint_fade = 0;				//Alpha for the hint text
 
 //alarm[1] = wpm+120;				//Wait to start AI
 alarm[2] = blink_speed;			//Blinking Cursor

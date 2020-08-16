@@ -1,18 +1,18 @@
 {
-    "id": "84b0c583-d9bd-4d30-ba39-0002e9f876ce",
+    "id": "86f21346-63fc-4c34-b71d-116c9b8b9423",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_sound_trigger",
+    "name": "obj_room_change_trigger",
     "eventList": [
         {
-            "id": "59ee2245-cb7b-40d1-90cb-cb488bf8a2d2",
+            "id": "6be81c06-47c0-4aee-ab44-c0d139adb89e",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "0cca8bc3-ad4b-4c80-8bd2-05e4a74f0631",
             "enumb": 0,
             "eventtype": 4,
-            "m_owner": "84b0c583-d9bd-4d30-ba39-0002e9f876ce"
+            "m_owner": "86f21346-63fc-4c34-b71d-116c9b8b9423"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -33,7 +33,7 @@
     "physicsStartAwake": true,
     "properties": [
         {
-            "id": "56866ef1-267f-4842-a812-b1e793b0166e",
+            "id": "3565ffb1-c528-4c91-9184-a1637410b2b8",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -42,8 +42,8 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "snd_door",
-            "varName": "sound",
+            "value": "rm_story2",
+            "varName": "next_room",
             "varType": 5
         }
     ],
