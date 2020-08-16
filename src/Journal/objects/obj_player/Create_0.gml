@@ -1,4 +1,12 @@
 /// @description Init
+
+//Endless
+ini_open(save_file);
+old_score = ini_read_real("game","hiscore",0);
+highscore = -3;
+ini_close();
+
+//Phrase Queue
 story = ds_queue_create();
 queue_phrases(story);
 

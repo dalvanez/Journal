@@ -1,5 +1,8 @@
 /// @description Draw Text
 
+if (!insane) image_index = 0;
+else		 image_index = 1;
+
 //Light
 draw_set_color(c_bit_black)
 var _out = 4;

@@ -2,3 +2,4 @@ SFX by Cleyton Kauffman - https://soundcloud.com/cleytonkauffman - Circuit Break
 eklee http://freesound.org/people/eklee/ - Keyboard Sounds
 Footsteps from YT Audio Library
 free sound effects from https://www.fesliyanstudios.com - Electrical Hum
+Words List from https://github.com/InnovativeInventor/dict4schools/blob/master/safedict_full.txt

@@ -9,8 +9,14 @@ if (!freeze_inputs && ai_start) {
 		scale = other.scale;
 	}
 
+	var _caution = abs(player_index-ai_index);
 	if ((ai_index>0 && ai_phrase==progress )|| string_length(progress)<1) {
 		lose_game();
+	} else if (_caution<=3 && player_index>3) {
+		play_sound(snd_heartbeat);
+		if (audio_is_playing(snd_caution_heartbeat)) audio_stop_sound(snd_caution_heartbeat);
+	} else if (_caution<=6 && player_index>6) {
+		play_sound(snd_caution_heartbeat);
 	}
 	
 	ai_index+=1;

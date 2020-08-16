@@ -3,6 +3,14 @@ switch(room) {
 	case rm_intro:
 		room_goto(rm_story);
 		break;
+	case rm_story3:
+		screen_save("endlessly reporting.jpeg");
+		global.endless = true;
+		game_end();
+		break;
+	case rm_endless:
+		write_highscore();
+		//intentionally there is no break here
 	default:
 		switch(lose_counter) {
 			case 0:
@@ -24,7 +32,7 @@ switch(room) {
 				alarm[11] = 90;
 				break;
 			default:
-				game_restart();
+				room_restart();
 				break;
 		}
 		lose_counter+=1;

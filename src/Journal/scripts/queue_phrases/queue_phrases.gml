@@ -85,10 +85,10 @@ switch(room) {
 		ds_queue_enqueue(argument0,"You know, I used to be called");
 		ds_queue_enqueue(argument0,"\"A Drama Maker\"");	//50
 		ds_queue_enqueue(argument0,"Even though I wasn't.");
-		ds_queue_enqueue(argument0,"I just had a talent for...");
-		ds_queue_enqueue(argument0,"good stories.");
+		ds_queue_enqueue(argument0,"I just had an eye for good stories.");
 		ds_queue_enqueue(argument0,"And people like good stories, right?");
 		ds_queue_enqueue(argument0,"I mean, why not?");
+		ds_queue_enqueue(argument0,"...");
 		ds_queue_enqueue(argument0,"...");
 		ds_queue_enqueue(argument0,"...");
 		ds_queue_enqueue(argument0,"...");
@@ -102,17 +102,44 @@ switch(room) {
 		ds_queue_enqueue(argument0,"Where is he?");
 		ds_queue_enqueue(argument0,"Is anyone out here?!");
 		ds_queue_enqueue(argument0,"...");
+		ds_queue_enqueue(argument0,"Am I imagining things?");
+		ds_queue_enqueue(argument0,"Maybe I should leave.");
+		ds_queue_enqueue(argument0,"I need to leave now.");
+		ds_queue_enqueue(argument0,"Blood has been spilled.");
+		ds_queue_enqueue(argument0,"What if the police arrive?");
+		ds_queue_enqueue(argument0,"Someone would have called them.");
+		ds_queue_enqueue(argument0,"I think I know enough.");
+		ds_queue_enqueue(argument0,"Do I hear sirens?!");
 		ds_queue_enqueue(argument0,"Is that the police?");
 		ds_queue_enqueue(argument0,"Oh god what did I do?!");
 		ds_queue_enqueue(argument0,"This looks so bad!");
 		ds_queue_enqueue(argument0,"I must do something!");
-		ds_queue_enqueue(argument0,"Hide the body!");
-		ds_queue_enqueue(argument0,"Hide the body!!");
-		ds_queue_enqueue(argument0,"Hide the body!!!");
 		ds_queue_enqueue(argument0,"Why did I do this?");
-		ds_queue_enqueue(argument0,"I just wanted to be happy.");
-		ds_queue_enqueue(argument0,"I just wanted to have the...");
-		ds_queue_enqueue(argument0,"the next big story.");
-		ds_queue_enqueue(argument0,"And the raise I deserved.");
+		ds_queue_enqueue(argument0,"Where is the gun?");
+		ds_queue_enqueue(argument0,"I didn't know what I was doing!");
+		ds_queue_enqueue(argument0,"I need to escape.");
+		ds_queue_enqueue(argument0,"Can I sneak out this way?");
+		ds_queue_enqueue(argument0,"I'm sorry.");
+		ds_queue_enqueue(argument0,"I'm sorry..");
+		ds_queue_enqueue(argument0,"I'm sorry....");
+		ds_queue_enqueue(argument0,"I'm sorry.....");
+		ds_queue_enqueue(argument0,"I'm sorry......");
+		ds_queue_enqueue(argument0,"I'm sorry!");
+		ds_queue_enqueue(argument0,"I'm sorry!!");
+		break;
+	case rm_story3:
+		ds_queue_enqueue(argument0,"My name is David Abbernel.");
+		ds_queue_enqueue(argument0,"I was a journalist");
+		ds_queue_enqueue(argument0,"who wanted to make it big,");
+		ds_queue_enqueue(argument0,"but I didn't.");
+		ds_queue_enqueue(argument0,"I was arrested");
+		ds_queue_enqueue(argument0,"and charged with murder.");
+		ds_queue_enqueue(argument0,"And I'm sorry.");
+		break;
+	default:
+		ds_queue_enqueue(argument0,"Welcome to the secret endless mode");
+		ds_queue_enqueue(argument0,"Let us see how well you can type");
+		if (old_score>0) ds_queue_enqueue(argument0,"Your high-score was: "+string(old_score));
+		else		     ds_queue_enqueue(argument0,"We'll take this one word at a time.");
 		break;
 }

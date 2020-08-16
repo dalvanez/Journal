@@ -101,7 +101,7 @@
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 1,
-            "eventtype": 5,
+            "eventtype": 9,
             "m_owner": "0cca8bc3-ad4b-4c80-8bd2-05e4a74f0631"
         },
         {
@@ -211,6 +211,20 @@
             "value": "0",
             "varName": "move_x",
             "varType": 0
+        },
+        {
+            "id": "3072e77c-d612-4070-8649-bfcc976faa46",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "insane",
+            "varType": 3
         }
     ],
     "solid": false,
