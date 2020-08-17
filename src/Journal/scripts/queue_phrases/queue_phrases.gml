@@ -125,6 +125,7 @@ switch(room) {
 		ds_queue_enqueue(argument0,"I'm sorry.....");
 		ds_queue_enqueue(argument0,"I'm sorry......");
 		ds_queue_enqueue(argument0,"I'm sorry!");
+		ds_queue_enqueue(argument0,"I'm sorry!");
 		break;
 	case rm_story3:
 		ds_queue_enqueue(argument0,"My name is David Abbernel.");

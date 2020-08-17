@@ -40,6 +40,14 @@
             }
         },
         {
+            "Key": "01c83c4b-e285-4957-984a-f1956746196e",
+            "Value": {
+                "id": "6ff42c85-e609-4bc9-b140-0c0dd1acd77d",
+                "resourcePath": "objects\\obj_ai_disable\\obj_ai_disable.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "02a99591-2c9e-4e09-bc01-b9b7c71719c7",
             "Value": {
                 "id": "2e33a2a3-ca6a-4d2a-966f-99bede7cfb2b",

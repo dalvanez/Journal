@@ -12,6 +12,7 @@ switch(room) {
 		write_highscore();
 		//intentionally there is no break here
 	default:
+		freeze_inputs = true;
 		switch(lose_counter) {
 			case 0:
 				play_sound(snd_step1);
