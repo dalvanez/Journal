@@ -4,7 +4,7 @@ switch(room) {
 		room_goto(rm_story);
 		break;
 	case rm_story3:
-		screen_save("endlessly reporting.jpeg");
+		screen_save(working_directory+"endlessly reporting.jpeg");
 		global.endless = true;
 		game_end();
 		break;

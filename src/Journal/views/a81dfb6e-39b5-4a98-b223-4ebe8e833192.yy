@@ -9,7 +9,8 @@
         "0ba14163-b45b-4014-ab7b-2db95b709713",
         "58990324-59fc-4fb0-acbd-239bdbc3fad4",
         "5de138cc-85f5-451a-8056-e47478c633ce",
-        "5ea3e6d9-3f07-4cb2-9fa0-cb2f122e3a0f"
+        "5ea3e6d9-3f07-4cb2-9fa0-cb2f122e3a0f",
+        "fd5acfc6-e9a2-43de-8100-2c4313d4e4e8"
     ],
     "filterType": "GMScript",
     "folderName": "Typing",
