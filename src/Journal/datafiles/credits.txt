@@ -1,0 +1,5 @@
+SFX by Cleyton Kauffman - https://soundcloud.com/cleytonkauffman - Circuit Breaker (used for lights flicking on)
+eklee http://freesound.org/people/eklee/ - Keyboard Sounds (used for typing)
+Footsteps from YT Audio Library	- (used for movement)
+free sound effects from https://www.fesliyanstudios.com - Electrical Hum - (used as ambient noise)
+Words List from https://github.com/InnovativeInventor/dict4schools/blob/master/safedict_full.txt - (used for endless mode)
