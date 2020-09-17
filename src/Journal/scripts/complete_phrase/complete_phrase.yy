@@ -1,8 +1,12 @@
 {
-    "id": "58990324-59fc-4fb0-acbd-239bdbc3fad4",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "complete_phrase",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "isDnD": false,
+  "isCompatibility": false,
+  "parent": {
+    "name": "Typing",
+    "path": "folders/Scripts/Typing.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "complete_phrase",
+  "tags": [],
+  "resourceType": "GMScript",
 }

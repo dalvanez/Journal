@@ -1,8 +1,12 @@
 {
-    "id": "cbe5bc99-c9c9-4528-bd97-3f1094e0a2dc",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "cout",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "isDnD": false,
+  "isCompatibility": false,
+  "parent": {
+    "name": "Scripts",
+    "path": "folders/Scripts.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "cout",
+  "tags": [],
+  "resourceType": "GMScript",
 }
